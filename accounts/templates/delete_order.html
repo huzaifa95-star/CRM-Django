@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>Are you sure you want to delete?</p>
+    
+    <input type="submit" name="DELETE">
+</form>
+{% endblock %}
