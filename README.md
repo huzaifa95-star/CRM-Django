@@ -1,6 +1,10 @@
-# Crude-app
+# CRM
+This is a CRM with all the CRUD and Login/Signup funtionctionalities.
+
 Setup:
 
-1.Intall Django
+1.Install python 3
 
-2.python manage.py runserver
+2.Intall Django
+
+3.python manage.py runserver
